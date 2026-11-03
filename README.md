@@ -54,7 +54,7 @@ python generate_mock_data.py
 ### 4. Running the Pipeline
 Execute the full workflow script. The pipeline automatically evaluates requirements, builds index baselines if missing, maps dependencies, runs statistics, and bundles logs:
 ```bash
-python complete_pipeline.py
+python pipeline.py
 ```
 
 ---
