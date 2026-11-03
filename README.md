@@ -30,6 +30,9 @@ The workflow is divided into modular steps, with outputs from each stage cleanly
     ├── dashboard/                 (Contains multiqc_report.html)
     └── logs/                      (Aggregated tool diagnostics)
 ```
+### ⚠️ Permissions & Workspace Initialization
+* **Write Access:** Ensure you have full write access to the project directory after cloning the repository.
+* **Automated Setup:** When you run `complete_pipeline.py`, the orchestrator will automatically create all the required output directory structures dynamically. No manual folder configuration is needed.
 
 ---
 
