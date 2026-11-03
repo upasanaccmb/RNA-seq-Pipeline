@@ -60,7 +60,7 @@ python pipeline.py
 ---
 
 ## Outputs & Visualization
-Upon successful completion, check the `pipeline_output/` directory:
+Upon successful completion, check the `output/` directory:
 * **`output/5_differential_expression/de_results.csv`**: Complete spreadsheet table containing Log2 Fold Changes, p-values, and adjusted p-values per gene.
 * **`output/5_differential_expression/volcano_plot.png`**: Volcano plot visualizing up-regulated vs down-regulated genes.
 * **`output/dashboard/multiqc_report.html`**: A production-grade standalone web dashboard summarizing trimming yields, quality stats, and genomic mapping rates. Open this file directly in any web browser.
